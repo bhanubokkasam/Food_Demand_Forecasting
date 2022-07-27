@@ -1,29 +1,30 @@
 # Food Demand Forecasting( RMSLE 50.0875283203)
+<img align='right' src="https://media.giphy.com/media/Crb7Qs3Wun15u/giphy.gif" width="230">
+
 ### Train.csv
-id: Unique ID
-week: Week No
-center_id: Unique ID for fulfillment center
-meal_id: Unique ID for Meal
-checkout_price: Final price including discount, taxes & delivery charges
-base_price: Base price of the meal
-emailer_for_promotion: Emailer sent for promotion of meal
-homepage_featured: Meal featured at homepage
-num_orders: Orders Count
+- id: Unique ID
+- week: Week No
+- center_id: Unique ID for fulfillment center
+- meal_id: Unique ID for Meal
+- checkout_price: Final price including discount, taxes & delivery charges
+- base_price: Base price of the meal
+- emailer_for_promotion: Emailer sent for promotion of meal
+- homepage_featured: Meal featured at homepage
+- num_orders: Orders Count
 
 ### Fullfillment_center_info.csv
-center_id: Unique ID for fulfillment center (Common in Train.csv)
-city_code: Unique code for city
-region_code: Unique code for region
-center_type: Anonymized center type
-op_area: Area of operation (in km^2)
+- center_id: Unique ID for fulfillment center (Common in Train.csv)
+- city_code: Unique code for city
+- region_code: Unique code for region
+- center_type: Anonymized center type
+- op_area: Area of operation (in km^2)
 
 ### Meal.csv
-meal_id: Unique ID for the meal (Common in Train.csv)
-category: Type of meal (beverages/snacks/soups….)
-cuisine: Meal cuisine (Indian/Italian/…)
+- meal_id: Unique ID for the meal (Common in Train.csv)
+- category: Type of meal (beverages/snacks/soups….)
+- cuisine: Meal cuisine (Indian/Italian/…)
 
 # Problem Statement
-<hr>
 
 Your client is a meal delivery company which operates in multiple cities. They have various fulfillment centers in these cities for dispatching meal orders to their customers. The client wants you to help these centers with demand forecasting for upcoming weeks so that these centers will plan the stock of raw materials accordingly.
 
